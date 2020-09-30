@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: rgb(255, 255, 255);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sidenav {
+  width: 180px;
+
+}
+
+.user {
+  background-color: rgb(18, 0, 117);
+  color: rgb(255, 255, 255);
+
+
+}
+
+.user-text {
+  color: #222;
+}
+
+.user-text:hover {
+  color: rgb(255, 255, 255);
+
+  transition: ease-out 1s;
+}
+
+.user li a {
+  color: rgb(255, 255, 255);
+}
+
+.user li a:hover {
+  color: rgb(235, 235, 235);
+  transition: ease-in-out 1s;
+}
+
+.user-bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.parallax-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.363));
+}
+
+.social li {
+  display: inline-block;
+  padding: 10px;
+  color: #222;
+}
+
+.social li a {
+  color: #222;
+  font-size: large;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
